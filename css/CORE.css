@@ -1,0 +1,258 @@
+/** 
+ *	 Core CSS by BEETLE
+ * 	 Customized by Hollyellodic 
+ *	 You may appreciate it by not deleting any credits
+ */ 
+
+center font, td, br {
+	display: none;
+}
+.main td {
+	display: table-cell;
+}
+.main br {
+	display: inline;
+}
+body {
+	background: #ccc url("https://1.bp.blogspot.com/-CYQ5F9q6YlE/VIX6zgIg8EI/AAAAAAAAGwU/nkOudSDpI18/s1600/website-background-rough-surface.jpg");
+	text-align: center;
+}
+.title {
+	font-family: 'IM Fell English SC';
+	font-size: 89px;
+	color: #000;
+	text-align: center;
+	letter-spacing: -5px;
+	text-transform: uppercase;
+	margin-bottom: -20px;
+}
+.title b {
+	color: #000;
+	letter-spacing: -5px;
+}
+.main {
+	margin: 20px auto 0 auto;
+	width: 900px;
+	height: 502px;
+	background: #fff;
+	overflow: hidden;
+}
+.side {
+	float: left;
+	height: 100%;
+	width: 230px;
+	background: #c0c0c0 url("http://i.imgur.com/g8vT0w6.png");
+	overflow: auto;
+}
+.side a {
+	text-decoration: none;
+	display: block;
+	border-radius: 10px;
+	margin: 5px 25px 0 25px;
+	padding-right: 10px;
+	font: small-caps 19px calibri;
+	line-height: 30px;
+	color: #0c0c0c;
+	text-align: left;
+	letter-spacing: 1px;
+	text-transform: lowercase;
+}
+.side a:hover {
+	text-align: right;
+	color: #000;
+	background: #ddd;
+}
+.pics img {
+	height: 200px;
+	padding: 2px;
+	background: #fff;
+	border: 1px solid #fbf;
+	margin: 3px;
+}
+
+.content {
+	width: 670px;
+	overflow: hidden;
+	height: 100%;
+	font: 11px verdana;
+	line-height: 18px;
+	text-align: justify;
+}
+.page {
+	padding: 0 8px;
+	height: 502px;
+	overflow: auto;
+	margin-bottom: 1000px;
+}
+.page b {
+	color: #000;
+}
+.page i {
+	color: #0f0;
+}
+.page a {
+	text-decoration: none;
+	font-variant: small-caps;
+	letter-spacing: 1px;
+	color: #000;
+	background: #ccc;
+}
+.page a:hover {
+	font-style: italic;
+	color: #000;
+	background: #ccc;
+}
+.pagez a {
+	text-decoration: none;
+	font-variant: small-caps;
+	letter-spacing: 1px;
+	color: #000;
+	background: #fff;
+}
+.pagez a:hover {
+	font-style: italic;
+	color: #000;
+	background: #fff;
+}
+.page iframe {
+	width: 100%;
+	height: 100%;
+}
+span.header {
+	font-family: 'IM Fell English SC';
+	font-style: italic;
+	font-size: 47px; 
+	margin: 10px 0 0 30px;
+	padding: 0 10px 0 3px;
+	text-align: left;
+	letter-spacing: -3px;
+	background: #fff;
+	width: auto;
+	color: #000;
+}
+span.header b {
+	font: bold 60px georgia;
+	color: #000;
+	margin-right: -8px;
+}
+.line {
+	border-bottom: 1px solid #555;
+	margin: 40px 0 -43px 0;
+}
+span.subheader {
+	text-align: right;
+	display: block;
+	margin-top: -24px;
+	font: italic small-caps 13px georgia;
+	color: #000;
+	text-transform: lowercase;
+}
+.p {
+	margin: 10px;
+}
+.p img {
+	align: center;
+}
+.icons {
+	width: 150px;
+	margin-top: 8px;
+	text-align: center;
+	float: right;
+}
+.icons img {
+	margin: 2px;
+	padding: 1px;
+	border: 1px solid #dad;
+	background: #ccc;
+}
+a.ichanz {
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	margin: 8px;
+	text-align: center;
+}
+a.ichanz2 {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	margin: 0px;
+	text-align: center;
+}
+a.ichanz .text {
+	width: 280px;
+	height: 280px;
+	margin: 10px;
+	display: none;
+}
+a.ichanz:hover .text {
+	display: block;
+	font: 11px verdana;
+	letter-spacing: 0;
+	line-height: 18px;
+	color: #000;
+}
+#events {
+	text-align: left;
+}
+.events {
+	display: inline-block;
+	width: 200px;
+	text-align: center;
+	margin: 10px 5px;
+}
+.events img {
+	margin-bottom: 10px;
+}
+.events .tracker {
+	width: 200px;
+	height: 25px;
+	background: #eee;
+	border: 1px solid #000;
+	margin: 10px 0;
+}
+.tracker .progress {
+	height: 100%;
+	background: #bbb;
+}
+.memberbox {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.memberbox b {
+	font: 11px verdana !important;
+	font-weight: bold !important;
+	line-height: 18px;
+	color: #ccc !important;
+}
+.memberbox img {
+	display: none;
+}
+.memberbox table {
+	text-align: center;
+	border-spacing: 12px;
+	width: 540px;
+	margin: 0 auto;
+}
+.memberbox td {
+	vertical-align: top;
+}
+.memberbox td img {
+	display: inline;
+}
+.memberbox td b {
+	color: #000 !important;
+	font-weight: normal !important;
+}
+.copyrights {
+	font-size: 10px;
+	color: #555;
+}
+.clock {
+    color: #000;
+    font-size: 20px;
+    font-family: Orbitron;
+    letter-spacing: 0px;
+}
