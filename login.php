@@ -1,8 +1,8 @@
 <?php session_start();
 if(isset($_POST['Submit'])){
 $logins = array(
-'Ichan' => 'rangw0aini',
-'mi2018' => '2018');
+'user1' => 'pwd',
+'user2' => 'pwd');
 
 $Username = isset($_POST['Username']) ? $_POST['Username'] : '';
 $Password = isset($_POST['Password']) ? $_POST['Password'] : '';
